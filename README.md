@@ -1,1 +1,1 @@
-# Chatbot with Memory Using LangChain and OpenAI
+# Chatbot with Memory Using LangChain
