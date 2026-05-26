@@ -1,6 +1,5 @@
 import streamlit as st
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage, trim_messages
 from langgraph.checkpoint.memory import MemorySaver
@@ -22,8 +21,7 @@ if "memory" not in st.session_state:
 
 
 # Model or LLM
-model = ChatOpenAI(model="gpt-4o-mini")
-# model = ChatGroq(model="llama-3.3-70b-versatile")
+model = ChatGroq(model="llama-3.3-70b-versatile")
 
 # Chat Prompt Template
 prompt_template = ChatPromptTemplate(
