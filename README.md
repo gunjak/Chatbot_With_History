@@ -34,7 +34,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Create a `.env` file:
+Add api_key `.env.example` file:
 
 ```env
 GROQ_API_KEY=your_groq_api_key
