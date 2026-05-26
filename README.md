@@ -1,7 +1,21 @@
-# Chatbot with Memory
+# LangChain Conversational Chatbot with Memory
 
-- To install dependency use command : pip install -r requirements.txt
-- Add GROQ_API_KEY in .env.example 
-- Library used : Streamlit, Langchain
-- To run : streamlit run app.py
+-A conversational AI chatbot built using Streamlit, LangChain, and LangGraph that supports persistent chat memory and real-time -streaming responses.
+
+-This application demonstrates how to create an intelligent assistant powered by modern LLM frameworks while maintaining =conversational context across interactions.
+
+- Features
+  - Interactive chatbot UI using Streamlit
+  - Persistent conversation memory with LangGraph MemorySaver
+  - Context-aware conversations using LangChain message history
+  - Message trimming to optimize token usage
+  - Streaming AI responses in real time
+
+- Tech Stack
+  - Python
+  - Streamlit
+  - LangChain
+  - LangGraph
+  - Groq API
+  - dotenv
 
